@@ -1,0 +1,53 @@
+body{
+	margin:0px;
+	padding:0px;
+	font-size:12px;
+	background-color:016aa9;<!--工具：ie取色-->
+	overflow:hidden;
+	text-align:center;
+	
+}
+
+#container{
+	width:980px;
+}
+
+#login{
+	background-image:url(../images/login.jpg);
+	width:600px;
+	height:400px;
+	margin:100px 400px;
+	
+}
+
+#form{
+	color:red;
+	padding:100px;
+
+}
+
+#input input{
+	width:170px;
+	height:20px;
+	margin-top:15px;
+	background-color:#666666;
+	border:0px;
+	color:#6cd0ff;
+}
+
+#btn{
+	margin-top:15px;
+}
+
+#btn input{
+	margin:auto 15px;
+	background-image:url(../images/btn.jpg);
+	border:0px;<!--设置按钮图片需将其边框设为0px -->
+	width:49px;
+	height:20px;
+	color:#FFFFFF;
+	
+	
+}
+			
+			
