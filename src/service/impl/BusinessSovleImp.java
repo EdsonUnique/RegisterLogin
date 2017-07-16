@@ -6,9 +6,11 @@ import java.security.NoSuchAlgorithmException;
 import service.BusinessSovle;
 import sun.misc.BASE64Encoder;
 import utils.Encoder;
+import utils.daoUtil;
 import utils.xmlUtils;
 import dao.Access2db;
 import dao.impl.Access2dbImpl;
+import dao.impl.Jdbc2dbImpl;
 import domain.User;
 import exception.UserExistsException;
 
@@ -19,7 +21,7 @@ import exception.UserExistsException;
  */
 public class BusinessSovleImp implements BusinessSovle{
 	
-	private static Access2db dao=new Access2dbImpl();
+	private static Access2db dao=daoUtil.getDao();
 
 	public void register(User user) throws UserExistsException{
 		
